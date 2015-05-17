@@ -1,0 +1,104 @@
+.SuiteBar-TabRowRightSpan {
+display: block;
+padding: 4px 0px 4px;
+border-top: 1px solid transparent;
+text-align: center;
+font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+font-size: 13px;
+color:black;
+font-weight:600;
+}
+.SuiteBar-TabRowRights{
+height:30px;
+float:right;
+background-color:yellow;
+width:100%;
+}
+.SuiteBar-TabRowRightMainSpan{
+display: block;
+float: left;
+white-space: nowrap;
+height: 30px;
+overflow-y: hidden;
+overflow-x: hidden;
+margin: 0px 0px -1px 0px;
+padding: 0px;
+list-style-type: none;
+}
+.SuiteBar-TabRowRightLinks{
+display: block;
+float: left;
+margin: 0px 2px 2px 0px;
+padding: 0px;
+list-style-type: none;
+height: 30px;
+}
+.SuiteBar-TabRowRightLinks-a{
+margin-top: 0px;
+margin-right: 40px;
+color: #fff !important;
+border: 1px solid transparent;
+border-bottom: 0px;
+display: block;
+cursor: auto;
+}
+.SuiteBar-TabRowRightLinks-a:hover{
+text-decoration: underline overline;
+}
+div#suiteBarLeft{
+float:right;
+}
+nav {
+  height: 26px;
+  text-align: center;
+}
+.badge-red {
+   display: block;
+   position: absolute;
+   top: 2px;
+   right: 775px;
+   line-height: 16px;
+   height: 16px;
+   padding: 0 5px;
+   font-family: Arial, sans-serif;
+   color: white;
+   text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+   border: 1px solid;
+   border-radius: 10px;
+   background: #fa623f;
+   border-color: #fa5a35;
+   background-image: -webkit-linear-gradient(top, #fc9f8a, #fa623f);
+   background-image: -moz-linear-gradient(top, #fc9f8a, #fa623f);
+   background-image: -o-linear-gradient(top, #fc9f8a, #fa623f);
+   background-image: linear-gradient(to bottom, #fc9f8a, #fa623f);
+}
+.button {
+    display: inline-block;
+    background: hsl(40, 100%, 60%);
+    color: hsl(40, 100%, 20%);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.ms-dlgContent
+{  
+    overflow:scroll;   
+}
+ 
+.ms-dlgFrame
+{
+    overflow:hidden;
+}
+[data-notifications]:after {
+    content: attr(data-notifications);
+	 position:relative;    /* This breaks the div from the normal HTML document. */
+    top: -6px;
+    padding:1px 2px 1px 2px;
+    background-color:red; /* you could use a background image if you'd like as well */
+    color:white;
+    font-weight:bold;
+    font-size:1em;
+	border-radius:30px;
+    box-shadow:1px 1px 1px gray;
+
+
+}

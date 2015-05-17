@@ -1,0 +1,58 @@
+.breaking-news {
+  background: yellow;
+  padding: 10px 1px 0px 0px;
+  position: absolute;
+  left: 0px;
+}
+
+.feed-entries { 
+display: block; 
+ width: 450px;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+
+.breaking-news a {
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+
+.breaking-news a {
+  color: black;
+  text-decoration: none;
+  text-shadow: 0px 0px #333;
+  white-space: nowrap;
+  width: 450px;
+  text-overflow: ellipsis;
+}
+
+.breaking-news a:hover { text-decoration: underline; }
+
+.scroll-effect {
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-effect .feed-entries {
+  overflow: hidden;
+  top: 0;
+  width:50px;
+}
+.feed-title-3 {
+  background: red;
+  float: left;
+  margin-top: -10px;
+  padding: 9px;
+  margin-right: 12px;
+  color: black;
+}
+
+.scroll-effect .feed-entries a { 
+display: block;
+  width:50px;
+}
+
+.uscore { color: #fff; }
